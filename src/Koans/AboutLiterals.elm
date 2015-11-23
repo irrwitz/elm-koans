@@ -25,9 +25,9 @@ testSuite =
     , test "integers do not"
         (assertEqual 42 xNum)
     , test "number literals can be integers"
-        (assertEqual 42 42)
+        (assertEqual 42 xNum)
     , test "number literals can be floats"
-        (assertEqual 42 42.0)
+        (assertEqual 42 xNum)
     , test "lists are denoted by brackets"
         (assertEqual [1, 2, 3] xList)
     ]
